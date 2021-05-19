@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterPlayer</servlet-name>
+  	<display-name>RegisterPlayer</display-name>
+  	<description></description>
+  	<servlet-class>com.mindtree.controller.RegisterPlayer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PlayerDetails</servlet-name>
+  	<display-name>PlayerDetails</display-name>
+  	<description></description>
+  	<servlet-class>com.mindtree.controller.PlayerDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterPlayer</servlet-name>
+  	<url-pattern>/RegisterPlayer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PlayerDetails</servlet-name>
+  	<url-pattern>/PlayerDetails</url-pattern>
+  </servlet-mapping>
+</web-app>
